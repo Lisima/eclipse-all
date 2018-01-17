@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class DoWhile {
+	public static void main(String[] args) {
+		Scanner scanner =new Scanner(System.in);
+		int number;
+		do
+		{
+			System.out.println("Podaj liczbê:");
+			number = scanner.nextInt();
+		}while(number!=0);
+
+	}
+
+}

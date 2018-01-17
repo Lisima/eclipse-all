@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Kalkulator {
+	
+	public static void main(String[] args) 
+	{
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Podaj Liczbê a:	" );
+		int a = scanner.nextInt();
+		System.out.print("Podaj Liczbê b:	" );
+		int b = scanner.nextInt();
+		int sum = a + b;
+		int mn= a*b;
+		int dz=a/b;
+		System.out.println("suma wynosi:	" + sum);
+		System.out.println("iloczyn wynosi:	" + mn);
+		System.out.println("ró¿nica wynosi:	" + dz);
+	}
+
+}

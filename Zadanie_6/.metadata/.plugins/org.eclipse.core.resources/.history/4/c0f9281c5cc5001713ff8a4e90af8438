@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Suma {
+
+	public static void main(String[] args) 
+	{
+		for(i=0; i<15; i++ )
+		{
+			Scanner scanner = new Scanner(System.in);
+			
+			System.out.print("Podaj Liczbê " );
+			int a = scanner.nextInt();
+			int suma = 0;
+			suma = suma+a;
+		}
+
+	}
+
+}

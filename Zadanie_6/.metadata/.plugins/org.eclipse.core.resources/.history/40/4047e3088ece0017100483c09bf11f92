@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class DoWhile {
+	public static void main(String[] args) {
+		Scanner scanner =new Scanner(System.in);
+		int number;
+		int sum=0;
+		double sr=0;
+		int i=0;
+		do
+		{
+			System.out.println("Podaj liczbê:");
+			number = scanner.nextInt();
+			sum=sum+number;
+			System.out.println("suma to:"+ sum);
+			i++;
+			System.out.println("œrednia wynosi"+ sr);
+		}while(number!=0);
+		sr=sum/(i-1);
+		System.out.println("suma wynosi" +sum);
+		System.out.println("Srednia wynosi" +sr);
+		
+	}
+
+}

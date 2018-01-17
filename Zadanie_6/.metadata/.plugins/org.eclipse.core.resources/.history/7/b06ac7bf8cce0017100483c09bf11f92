@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class PentlaDoWhile {
+
+	public static void main(String[] args) {
+		@SuppressWarnings("resource")
+		Scanner scanner =new Scanner(System.in);
+		int number;
+		do
+		{
+			System.out.println("Podaj liczbê:");
+			number = scanner.nextInt();
+		}while(number!=0);
+
+	}
+
+}
